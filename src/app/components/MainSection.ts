@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import {Store} from '@ngrx/store';
-import {TodoItemComponent} from './TodoItem';
+import {TodoItemComponent} from './todo/TodoItem';
 import {Observable} from 'rxjs/Rx';
 import {FooterComponent} from './Footer';
 import * as actions from '../actions/index';

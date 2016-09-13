@@ -1,0 +1,36 @@
+<h1 (click)="dashboardHeaderClicked()">
+  Dashboard
+</h1>
+
+Search for a Food <input id="name" type="text" [(ngModel)]="name"  />
+{{ name }}
+
+<div>
+
+<!--<button>Or browse for foods</button>-->
+</div>
+
+<div class="safe-foods-columns-container">
+
+  <div class='recommended-safe column safe-foods-column'>
+    Recommended Safe
+  </div>
+
+  <div class='marked-safe column safe-foods-column'>
+    Marked Safe
+  </div>
+
+  <div class='safe-in-moderation column safe-foods-column'>
+    Safe in Moderation
+  </div>
+
+  <div class='marked-unsafe column safe-foods-column'>
+    Marked Unsafe
+  </div>
+
+  <div class='recommended-unsafe column safe-foods-column'>
+    Recommended Unsafe
+  </div>
+
+
+</div>

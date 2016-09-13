@@ -1,12 +1,13 @@
 import {Component} from '@angular/core';
 import {Store} from '@ngrx/store';
-import * as actions from '../actions/index';
-import {TodoTextInputComponent} from './TodoTextInput';
+import * as actions from '../../actions/index';
+import {TodoTextInputComponent} from '../todo/TodoTextInput';
 
 @Component({
   selector: 'fountain-header',
   template: require('./Header.html'),
-  directives: [TodoTextInputComponent]
+  styleUrls: ['app/components/original-header/Header.css'],
+  directives: [TodoTextInputComponent],
 })
 export class HeaderComponent {
   constructor(public store: Store<any[]>) {

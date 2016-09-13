@@ -9,7 +9,7 @@ import {By} from '@angular/platform-browser';
 import {provideStore, combineReducers} from '@ngrx/store';
 import {todos, visibility} from '../reducers/todos';
 import {MainSectionComponent} from './MainSection';
-import {TodoItemComponent} from './TodoItem';
+import {TodoItemComponent} from './todo/TodoItem';
 import {FooterComponent} from './Footer';
 import * as actions from '../actions/index';
 import {SHOW_ALL, SHOW_COMPLETED} from '../constants/TodoFilters';

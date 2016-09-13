@@ -1,0 +1,41 @@
+
+
+.safe-foods-columns-container {
+  display: inline-block;
+  position: relative;
+}
+
+.safe-foods-column {
+  position: relative;
+   min-height: 700px;
+   min-width: 100px;
+   max-height: 700px;
+   max-width: 100px;
+  float: left;
+ }
+
+.recommended-safe {
+background-color: greenyellow;
+}
+
+.marked-safe {
+  background-color: limegreen;
+
+}
+
+.safe-in-moderation {
+  background-color: orange;
+}
+
+.marked-unsafe {
+  background-color: red;
+
+}
+
+.recommended-unsafe {
+background-color: palevioletred;
+}
+
+button {
+
+}
